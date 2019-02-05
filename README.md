@@ -18,16 +18,16 @@ Utwórz klasę Trojkat spełniającą następujące założenia:
     * Eksport do postaci tekstowej
 
 1. UWAGA:
-  * W sytuacji podania niedodatnich długości boków, obiekt nie może powstać - zgłoszenie wyjątku ArgumentOutOfRangeException
-  * Nie dla każdych podanych długości trzech boków można utworzyć trójkąt - muszą spełniać tzw. warunek trójkąta. W takiej sytuacji zgłoszenie wyjątku ArgumentException
-  * Pole powierzchni trójkąta, przy zadanych długościach boków, można obliczyć ze wzoru Herona.
+    * W sytuacji podania niedodatnich długości boków, obiekt nie może powstać - zgłoszenie wyjątku ArgumentOutOfRangeException
+    * Nie dla każdych podanych długości trzech boków można utworzyć trójkąt - muszą spełniać tzw. warunek trójkąta. W takiej sytuacji zgłoszenie wyjątku ArgumentException
+    * Pole powierzchni trójkąta, przy zadanych długościach boków, można obliczyć ze wzoru Herona.
 
 Napisz interaktywny program konsolowy weryfikujący funkcjonalność klasy Trojkat.
 
 Przykładowy scenariusz:
-  * Program prosi o podanie trzech długości boków.
-  * Jeśli podane dane nie są numeryczne, zgłasza wyjątek i kończy pracę.
-  * Tworzony jest obiekt typu Trojkat o zadanych bokach.
-  * Wypisywane są na konsolę parametry trójkąta (obwód, pole, czy prostokątny, ostrokątny lub rozwartokątny).
-  * Jeśli trójkąt jest równoramienny lub równoboczny, stosowna informacja wypisywana jest na konsolę.
+1. Program prosi o podanie trzech długości boków.
+2. Jeśli podane dane nie są numeryczne, zgłasza wyjątek i kończy pracę.
+3. Tworzony jest obiekt typu Trojkat o zadanych bokach.
+4. Wypisywane są na konsolę parametry trójkąta (obwód, pole, czy prostokątny, ostrokątny lub rozwartokątny).
+5. Jeśli trójkąt jest równoramienny lub równoboczny, stosowna informacja wypisywana jest na konsolę.
   
