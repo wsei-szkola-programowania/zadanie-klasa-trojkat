@@ -11,11 +11,11 @@ Utwórz klasę Trojkat spełniającą następujące założenia:
 1. Trójkąt domyślny, to taki, o bokach o długościach 1.
 
 1. Należy dostarczyć funkcjonalności:
-  * Wyliczenie pola powierzchni
-  * Wyliczenie obwodu
-  * Zwrócenie informacji, czy trójkąt jest prostokątny, rozwartokątny, ostrokątny
-  * Zwrócenie informacji, czy trójkąt jest równoboczny, czy jest równoramienny
-  * Eksport do postaci tekstowej
+    * Wyliczenie pola powierzchni
+    * Wyliczenie obwodu
+    * Zwrócenie informacji, czy trójkąt jest prostokątny, rozwartokątny, ostrokątny
+    * Zwrócenie informacji, czy trójkąt jest równoboczny, czy jest równoramienny
+    * Eksport do postaci tekstowej
 
 1. UWAGA:
   * W sytuacji podania niedodatnich długości boków, obiekt nie może powstać - zgłoszenie wyjątku ArgumentOutOfRangeException
